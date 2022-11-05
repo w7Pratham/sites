@@ -1,42 +1,82 @@
 /* 
-
-Project Name: Cookie Monster 
-Client: Cookie Monster
-Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
-Developed @ One Month in NYC 
-
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Prathamesh Shingne | @w7Pratham
 */
 
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+.clear {
+   clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
 body {
-	background: url("../images/cookie-monster.jpg");
-	/* the follow is the code to have the image display as a full page */
-	background-position: center;
-	background-attachment: fixed;
-	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+    background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7; /* line-height is unit-less */
+    font-size: 100%;
+   } 
 
-#container {
-	background: black;
-	width: 424px;
-	color: white;
-	padding: 15px;
-}
-
-h1 {
-	font-size: 80px;
-}
-
-h2 {
-	background: #75c1f6;
-	color: black;
-	padding: 5px;
-	border-radius: 5px;
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 a {
-	color: #75c1f6;
-	text-decoration: none;
+    text-decoration: none;
+    color: grey;
+}
+
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+#container {
+    width: 1000px;
+    margin : 0 auto 0 auto;
+}
+
+#blog {
+    background: white;
+    width: 700px;
+    padding: 25px;
+    margin-right: 10px;
+    float: left;
+}
+
+#sidebar {
+    background: white;
+    width: 290px;
+    padding: 25px;
+    float: left;
+}
+
+#footer {
+    padding: 25px;
+}
+
+.month {
+    color: rgb(9, 125, 226);
+}
+
+.list {
+    color: orange;
 }
