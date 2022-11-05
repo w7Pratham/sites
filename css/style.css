@@ -1,0 +1,63 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Prathamesh Shingne | @w7Pratham
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+.clear {
+   clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+body {
+    background: url('../images/wall.jpg'); /* add a fallback color of #d6d6d6 */
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7; /* line-height is unit-less */
+    font-size: 100%;
+   } 
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(216, 45, 71);
+}
+
+
+
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+#container {
+    width: 1000px;
+    margin : 0 auto 0 auto;
+}
+
+li:hover {
+    background: rgb(0, 0, 0);
+    display: inline;
+    
+}
