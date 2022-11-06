@@ -76,3 +76,7 @@ a {
 .list {
     color: orange;
 }
+
+#footer {
+    padding: 25px;
+}
