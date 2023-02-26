@@ -6,3 +6,6 @@ icon packs: https://www.flaticon.com/
 animated gifs image: https://giphy.com/
 button generator: https://css3buttongenerator.com/
 tasks and project based challenges: https://www.frontendmentor.io/
+awesome icons can be used in code: https://fontawesome.com/search
+code play ground where you can add libs: https://www.codeply.com/
+bootstap documentation: https://getbootstrap.com/docs/5.3/components/
